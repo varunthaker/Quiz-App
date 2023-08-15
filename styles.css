@@ -1,0 +1,76 @@
+@import "./components/card.css";
+@import "./components/global.css";
+@import "./components/header.css";
+@import "./components/footer.css";
+
+/* Media Query */
+
+@media screen and (min-width: 1200px) {
+  .header-container {
+    font-size: 20px;
+  }
+  .card-section .bookmark-plain {
+    font-size: 25px;
+    right: 20px;
+  }
+  .card-section .question {
+    font-size: 30px;
+  }
+
+  .card-section .show-button {
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  .card-section .answer {
+    align-self: center;
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .card-section .categories > button {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+  }
+
+  .footer-nav .fav {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .header-container {
+    font-size: 15px;
+  }
+  .card-section .bookmark-plain {
+    font-size: 20px;
+    right: 15px;
+  }
+  .card-section .question {
+    font-size: 20px;
+  }
+
+  .card-section .show-button {
+    width: 300px;
+    height: 30px;
+    font-size: 15px;
+  }
+
+  .card-section .answer {
+    align-self: center;
+    padding-bottom: 10px;
+    font-size: 15px;
+  }
+
+  .card-section .categories > button {
+    width: 80px;
+    height: 25px;
+    font-size: 15px;
+  }
+
+  .footer-nav .fav {
+    font-size: 30px;
+  }
+}

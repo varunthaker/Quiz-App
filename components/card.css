@@ -1,0 +1,61 @@
+.card-section {
+  margin: 30px;
+  border: 2px solid black;
+  padding: 3%;
+  border-radius: 2%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: -1;
+}
+
+.card-section .bookmark-plain {
+  position: absolute;
+  top: -8px;
+  right: 10px;
+}
+
+.card-section .question {
+  align-self: center;
+  margin: 10px;
+}
+
+/* .answer-section {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    align-self: center;
+  }
+  
+  .answer-section .ans {
+    border: black 5px;
+  } */
+
+.card-section .show-button {
+  width: 200px;
+  height: 40px;
+  align-self: center;
+  margin: 20px;
+  background-color: var(--button-background);
+  border: none;
+  border-radius: 10px;
+}
+
+.card-section .categories {
+  display: flex;
+  justify-content: center;
+}
+
+.card-section .answer {
+  align-self: center;
+  padding-bottom: 10px;
+}
+
+.card-section .categories > button {
+  background-color: var(--button-category);
+  width: 75px;
+  height: 25px;
+  margin-right: 8px;
+  border-style: none;
+  border-radius: 10px;
+}

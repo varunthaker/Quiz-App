@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-color: #cab7e6;
+  --header-footer-color: #5c4b99;
+  --option-background: white;
+  --button-background: rgb(221, 215, 215);
+  --button-category: aquamarine;
+}
+
+body {
+  background-color: var(--main-color);
+}
