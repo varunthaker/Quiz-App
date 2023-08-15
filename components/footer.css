@@ -1,0 +1,19 @@
+/* Footer CSS */
+
+.footer-nav {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  background-color: var(--header-footer-color);
+  width: 100%;
+  height: 10vh;
+}
+
+/* Main Container */
+.main-container {
+  padding-top: 10vh;
+}

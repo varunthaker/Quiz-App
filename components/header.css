@@ -1,0 +1,13 @@
+/* Header CSS */
+.header-container {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: auto;
+  background-color: var(--header-footer-color);
+  height: 10vh;
+}
