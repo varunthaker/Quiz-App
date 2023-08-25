@@ -12,7 +12,7 @@
       src="https://kit.fontawesome.com/9de9d79f9f.js"
       crossorigin="anonymous"
     ></script>
-    <script src="./js/index.js" defer></script>
+    <script src="./js/form.js" defer></script>
     <title>Quiz App</title>
      >
   </head>
@@ -23,21 +23,43 @@
     <main class="form-container">
       <form action="">
         <fieldset>
-          <label for="question">Your Question</label>
+          <label for="question">Your Question:</label>
           <textarea
             name="question"
             id="question"
             cols="30"
-            rows="10"
+            rows="5"
+            maxlength="150"
             required
+            autocomplete="off"
+            data-js="question-textarea"
+          ></textarea
+          ><span class="span" data-js="question-text">150 Characters left</span>
+          <label for="answer">Your Answer:</label>
+          <textarea
+            name="answer"
+            id="answer"
+            cols="30"
+            rows="5"
+            maxlength="150"
+            required
+            autocomplete="off"
+            data-js="answer-textarea"
           ></textarea>
-          <label for="answer">Your Answer</label>
-          <textarea name="answer" id="answer" cols="30" rows="10"></textarea>
+          <span class="span" data-js="answer-text">150 Charecters left</span>
           <label for="tag">Tag:</label>
-          <input type="text" name="tag" id="tag" />
+          <input
+            type="text"
+            name="tag"
+            id="tag"
+            autocomplete="off"
+            maxlength="150"
+          />
         </fieldset>
         <button type="submit">Submit</button>
       </form>
+
+      <div class="card" data-js="cards"></div>
     </main>
 
     <footer>

@@ -3,18 +3,23 @@
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  margin-top: 1.5rem;
+  margin-bottom: 5em;
 }
 input {
-  text-align: center;
+  text-align: justify;
   height: 30px;
-  border-radius: 10px;
+  border-radius: 5px;
   border: solid 1px #2f2f2f;
   cursor: pointer;
-  color: #2f2f2f;
+  color: black;
+  font-size: 1em;
 }
 
 textarea {
-  border-radius: 10px;
+  border-radius: 5px;
+  text-align: left;
+  font-size: 1.5em;
 }
 
 label {
@@ -22,9 +27,15 @@ label {
   text-align: start;
 }
 
+.span {
+  align-self: flex-end;
+  margin-top: 0;
+  padding-top: 0;
+}
+
 form {
   border: none;
-  gap: 20px;
+  gap: 0px;
   text-align: center;
   padding: 50px;
 }
@@ -37,8 +48,8 @@ fieldset {
   padding: 5px 0 20px 0;
 }
 
-button {
-  background-color: #3f0097; /* Green */
+form button {
+  background-color: #3f0097;
   border: none;
   border-radius: 15px;
   color: white;
@@ -49,7 +60,28 @@ button {
   font-size: 16px;
 }
 
-button:hover {
+form button:hover {
   background-color: aliceblue;
   color: #3f0097;
+}
+
+/* additional Card */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  bottom: 250px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: flex-start;
+  border: #2f2f2f solid 1px;
+  padding: 1rem;
+  width: 250px;
 }

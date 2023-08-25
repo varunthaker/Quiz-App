@@ -1,4 +1,5 @@
 console.clear();
+
 const bookmarkButton = document.querySelector('[data-js="bookmark"]');
 const answerButton = document.querySelector('[data-js="answer"]');
 const buttonDiv = document.querySelector('[data-js="button"]');
