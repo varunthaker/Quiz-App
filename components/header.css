@@ -10,4 +10,5 @@
   height: auto;
   background-color: var(--header-footer-color);
   height: 10vh;
+  z-index: 1;
 }

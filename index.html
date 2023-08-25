@@ -12,7 +12,9 @@
       src="https://kit.fontawesome.com/9de9d79f9f.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/index.js" defer></script>
     <title>Quiz App</title>
+     >
   </head>
   <body>
     <header class="header-container">
@@ -24,71 +26,16 @@
           <h3>Who is the Chancellor of germany?</h3>
         </section>
 
-        <!-- <div class="option-section">
-          <div class="opt --one">One</div>
-          <div class="opt --two">Two</div>
-          <div class="opt --three">Three</div>
-          <div class="opt --four">Four</div>
-        </div> -->
-
         <section class="bookmark-plain">
           <a href=""
-            ><a href=""><i class="fa-solid fa-bookmark fa-2xl"></i></a
+            ><i class="fa-regular fa-bookmark fa-2xl" data-js="bookmark"></i
           ></a>
         </section>
-
-        <button type="button" class="show-button">Show Answer</button>
-        <p class="answer">Mr. Olaf Scholz</p>
-
-        <div class="categories">
-          <button type="button" id="html">#HTML</button>
-          <button type="button" id="css">#CSS</button>
-          <button type="button" id="flexbox">#flexbox</button>
+        <div class="button-class" data-js="button">
+          <button type="button" class="show-button" data-js="answer">
+            Show Answer
+          </button>
         </div>
-      </section>
-      <section class="card-section">
-        <section class="question">
-          <h3>Who is the chancellor of germany?</h3>
-        </section>
-
-        <!-- <div class="option-section">
-          <div class="opt --one">One</div>
-          <div class="opt --two">Two</div>
-          <div class="opt --three">Three</div>
-          <div class="opt --four">Four</div>
-        </div> -->
-
-        <section class="bookmark-plain">
-          <a href=""><i class="fa-regular fa-bookmark fa-2xl"></i></a>
-        </section>
-
-        <button type="button" class="show-button">Show Answer</button>
-        <p class="answer">Mr. Olaf Scholz</p>
-
-        <div class="categories">
-          <button type="button" id="html">#HTML</button>
-          <button type="button" id="css">#CSS</button>
-          <button type="button" id="flexbox">#flexbox</button>
-        </div>
-      </section>
-      <section class="card-section">
-        <section class="question">
-          <h3>Who is the Chancellor of germany?</h3>
-        </section>
-
-        <!-- <div class="option-section">
-          <div class="opt --one">One</div>
-          <div class="opt --two">Two</div>
-          <div class="opt --three">Three</div>
-          <div class="opt --four">Four</div>
-        </div> -->
-
-        <section class="bookmark-plain">
-          <a href=""><i class="fa-regular fa-bookmark fa-2xl"></i></a>
-        </section>
-
-        <button type="button" class="show-button">Show Answer</button>
-        <p class="answer">Mr. Olaf Scholz</p>
 
         <div class="categories">
           <button type="button" id="html">#HTML</button>
@@ -100,9 +47,14 @@
 
     <footer>
       <nav class="footer-nav">
-        <a href=""><i class="fa-solid fa-house fa-2xl fav"></i></a>
-        <a href=""><i class="fa-solid fa-bookmark fa-2xl fav"></i></a>
-        <a href=""><i class="fa-solid fa-user fa-2xl fav"></i></a>
+        <a href="./index.html" class="highlightColor"
+          ><i class="fa-solid fa-house fa-2xl fav"></i
+        ></a>
+        <a href="./bookmark.html"
+          ><i class="fa-solid fa-bookmark fa-2xl fav"></i
+        ></a>
+        <a href="./add.html"><i class="fa-solid fa-plus fa-2xl"></i></a>
+        <a href="./profile.html"><i class="fa-solid fa-user fa-2xl fav"></i></a>
       </nav>
     </footer>
   </body>
