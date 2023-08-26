@@ -12,26 +12,57 @@
       src="https://kit.fontawesome.com/9de9d79f9f.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/profile.js" defer></script>
     <title>profile</title>
   </head>
   <body>
     <header class="header-container">
       <h1>Quiz App</h1>
     </header>
-    <main class="main-container"></main>
+    <main class="main-container" data-js="main-class">
+      <div class="profile-conatiner">
+        <section class="profile">
+          <img
+            src="https://static.thenounproject.com/png/5034901-200.png"
+            alt="profile image"
+          />
+          <h1>Varun Thaker</h1>
+        </section>
+        <section class="about-me">
+          <p>
+            I am a Full Stack Developer with a background in Industrial
+            Engineering. Currently, I am enrolled in a Full-Stack Web
+            Development Boot Camp at SPICED Academy. I love working in
+            fast-paced, challenging environments and collaborating within teams
+            to build products.
+          </p>
+        </section>
+        <section>
+          <button type="submit" class="counter">
+            <i class="fa-solid fa-question fa-xs"></i><span> 5</span>
+          </button>
+          <button type="submit" class="counter">
+            <i class="fa-solid fa-bookmark fa-xs"></i><span> 7</span>
+          </button>
+        </section>
+        <section class="toggle-switch">
+          <label class="toggle-lable">
+            <input type="checkbox" class="toggle-input" />
+            <span class="slider" data-js="toggle-switch"></span>
+          </label>
+        </section>
+      </div>
+    </main>
 
     <footer>
       <nav class="footer-nav">
         <a href="./index.html"><i class="fa-solid fa-house fa-2xl fav"></i></a>
-        <a href="./bookmark.html" target="_blank"
+        <a href="./bookmark.html"
           ><i class="fa-solid fa-bookmark fa-2xl fav"></i
         ></a>
-        <a href="./profile.html" target="_blank"
-          ><i
-            class="fa-solid fa-user fa-2xl fav"
-            href="./profile.html"
-            style="color: lightblue"
-          ></i
+        <a href="./add.html"><i class="fa-solid fa-plus fa-2xl"></i></a>
+        <a href="./profile.html"
+          ><i class="fa-solid fa-user fa-2xl fav" style="color: lightblue"></i
         ></a>
       </nav>
     </footer>

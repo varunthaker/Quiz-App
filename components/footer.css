@@ -17,4 +17,9 @@
 /* Main Container */
 .main-container {
   padding-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.highlightColor {
+  color: aliceblue;
 }

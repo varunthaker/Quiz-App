@@ -64,24 +64,3 @@ form button:hover {
   background-color: aliceblue;
   color: #3f0097;
 }
-
-/* additional Card */
-
-.card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 10px;
-  bottom: 250px;
-}
-
-.card-body {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  justify-content: center;
-  align-items: flex-start;
-  border: #2f2f2f solid 1px;
-  padding: 1rem;
-  width: 250px;
-}
