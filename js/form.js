@@ -52,28 +52,7 @@ const formReset = () => {
 };
 
 const addCard = (question, answer, tag) => {
-  const cardsDiv = document.querySelector('[data-js="cards"]');
-
-  //   const card = `<section class="card-section">
-  //   <section class="question">
-  //     <h3>${question}</h3>
-  //   </section>
-  //   <section class="bookmark-plain">
-  //     <button
-  //       ><i class="fa-regular fa-bookmark fa-2xl" data-js="bookmark"></i
-  //     ></button>
-  //   </section>
-  //   <div class="button-class" data-js="button">
-  //     <button type="button" class="show-button" data-js="answer">
-  //       Show Answer
-  //     </button>
-  //     <p>${answer}</p>
-  //   </div>
-
-  //   <div class="categories">
-  //     <button type="button" id="html">#${tag}</button>
-  //   </div>
-  // </section>`;
+const cardsDiv = document.querySelector('[data-js="cards"]');
 
   const addedCard = `<section class="card-section">
 <section class="question">
@@ -107,7 +86,6 @@ const numberOfCharecters = (maxLength, length) => {
 };
 
 const bookmarkButton = document.querySelector('[data-js="bookmark"]');
-console.log(bookmarkButton);
 
 bookmarkButton.addEventListener("click", (e) => {
   e.preventDefault();

@@ -14,8 +14,6 @@ answerButton.addEventListener("click", (e) => {
 
   let buttonText = e.target.innerText;
 
-  console.log(answer);
-
   if (buttonText === "Show Answer") {
     answer.classList.remove("answer");
     answer.classList.add("show");
