@@ -52,7 +52,7 @@ const formReset = () => {
 };
 
 const addCard = (question, answer, tag) => {
-  const cardsDiv = document.querySelector('[data-js="cards"]');
+const cardsDiv = document.querySelector('[data-js="cards"]');
 
   const addedCard = `<section class="card-section">
 <section class="question">
