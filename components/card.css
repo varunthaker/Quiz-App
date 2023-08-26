@@ -19,17 +19,12 @@
   margin: 10px;
 }
 
-/* .answer-section {
-    display: flex;
-    flex-direction: column;
-    margin: 5px;
-    align-self: center;
-  }
-  
-  .answer-section .ans {
-    border: black 5px;
-  } */
-
+.button-class {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .card-section .show-button {
   width: 200px;
   height: 40px;
@@ -52,6 +47,11 @@
 .card-section .answer {
   align-self: center;
   padding-bottom: 10px;
+  display: none;
+}
+
+.show {
+  display: inline-block;
 }
 
 .card-section .categories > button {
@@ -59,10 +59,12 @@
   width: 75px;
   height: 25px;
   margin-right: 8px;
+  margin-top: 10px;
   border-style: none;
   border-radius: 10px;
 }
 
 .card-section .categories > button:hover {
+  background-color: aliceblue;
   background-color: white;
 }
