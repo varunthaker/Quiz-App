@@ -43,6 +43,11 @@
 .card-section .answer {
   align-self: center;
   padding-bottom: 10px;
+  display: none;
+}
+
+.show {
+  display: inline-block;
 }
 
 .card-section .categories > button {
